@@ -1,0 +1,236 @@
+.logo-box {
+    background-color: rgb(139, 171, 89);
+    border-radius: 10px;
+}
+
+.logo-para {
+    color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+}
+
+.custom-navbar {
+    background-color: white;
+}
+
+nav {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+a {
+    color: white;
+    margin-left: 3px;
+}
+
+.main-logo {
+    height: 40px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.form-class {
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.home-img {
+    height: 93vh;
+    width: 100vw;
+}
+
+.overlay-box {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+    background: rgba(255, 255, 255, 0.9);
+    padding: 35px;
+    width: 1200px;
+    height: 400px;
+
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.overlay-box h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 24px;
+    font-weight: 600;
+    color: #198754;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.minister-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    background: #198754;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.minister-profile {
+    width: 90%;
+    max-width: 1300px;
+    margin: 60px auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.minister-profile-image {
+    width: 420px;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.minister-profile-content {
+    flex: 1;
+}
+
+.minister-profile-content h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.minister-profile-content h3 {
+    font-size: 24px;
+    color: #198754;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.minister-profile-content p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.minister-profile-content h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.minister-profile-content ul {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.minister-profile-content li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.profile-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: #198754;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.profile-btn:hover {
+    background: #157347;
+}
+
+.grievance-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 60px auto;
+    font-family: Arial, sans-serif;
+}
+
+.grievance-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.grievance-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.grievance-row {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.grievance-field {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.grievance-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.grievance-input,
+.grievance-select,
+.grievance-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.grievance-textarea {
+    resize: vertical;
+}
+
+.grievance-field {
+    margin-bottom: 20px;
+}
+
+.grievance-btn {
+    width: 180px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4CAF50;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.grievance-btn:hover {
+    background: #43A047;
+}
